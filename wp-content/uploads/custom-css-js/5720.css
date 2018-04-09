@@ -1,0 +1,53 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.et_pb_slide_description h2 {text-shadow: 2.4px 2.4px 0px #835af1; font-weight:300;
+}
+
+#et-info {
+  float: right;
+  padding-bottom: 10px;
+}
+
+#top-header .et-cart-info {
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 981px) {
+.five-columns .et_pb_module {
+width: 20%; float: left;
+padding-right: 3%;
+}
+}
+
+@media screen and (max-width: 980px) {
+.five-columns .et_pb_module {
+width: 33.3%; float: left;
+padding-right: 3%;
+}
+}
+
+@media screen and (max-width: 768px) {
+.five-columns .et_pb_module {
+width: 50%; float: left;
+padding-right: 3%;
+}
+}
+
+@media screen and (max-width: 480px) {
+.five-columns .et_pb_module {
+width: 100%; float: left;
+padding-right: 3%;
+}
+}</style>
+<!-- end Simple Custom CSS and JS -->

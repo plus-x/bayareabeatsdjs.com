@@ -1,0 +1,1 @@
+[2017-04-11 22:49:47] php_system.INFO: E_STRICT: array (   'type' => 2048,   'message' => 'Redefining already defined constructor for class googlefonts',   'file' => '/home3/mauibeats/public_html/labeatsdjs.com/wp-content/plugins/wp-google-fonts/google-fonts.php',   'line' => 140, ) [] []
