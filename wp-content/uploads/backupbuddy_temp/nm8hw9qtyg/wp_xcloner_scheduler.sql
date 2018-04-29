@@ -1,0 +1,3 @@
+CREATE TABLE `wp_xcloner_scheduler` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,  `recurrence` varchar(25) COLLATE utf8mb4_unicode_ci NOT NULL,  `params` text COLLATE utf8mb4_unicode_ci NOT NULL,  `start_at` datetime DEFAULT NULL,  `remote_storage` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,  `hash` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,  `status` int(1) NOT NULL,  `last_backup` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,  PRIMARY KEY (`id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+/*!40000 ALTER TABLE `wp_xcloner_scheduler` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_xcloner_scheduler` ENABLE KEYS */;
